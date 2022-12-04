@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body {
+  min-width: 380px;
+}
+p {
+  margin-bottom: 0;
+}
+
+/* エラーメッセージ用のスタイル */
+.alert {
+  margin-bottom: 0;
+}
+
+/*共通インプットスタイル*/
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="file"],
+.textarea,
+.genre_id{
+  border-radius: 1rem;
+}
+
+/*ログイン共通*/
+.login_wrapper {
+  padding: 2rem;
+  background: #c2e59c;
+  background: -moz-linear-gradient(to right, #64b3f4, #c2e59c);
+  background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);
+  background: linear-gradient(to right, #64b3f4, #c2e59c);
+}
+.form_signin_heading {
+  text-align:center;
+  margin-bottom: 1.8rem;
+}
+
+.form_signin {
+  max-width: 420px;
+  padding: 1.5rem 2rem 3.5rem;
+  background-color: rgba(248,249,250,0.75);
+  margin: 4rem auto;
+  border: 3px dotted rgba(0,0,0,0.1);  
+  }
+.password_attention {
+  font-size: 70%;
+}
+
+/*検索*/
+.search_form {
+  padding: 0.5rem 2rem;
+  justify-content: flex-end;
+}
+.search {
+  padding: 0;
+}
+.search input[type="search"],
+.search input[type="submit"] {
+  height: 3rem;
+  margin: auto 0;
+}
+
+/*フォーム共通*/
+.form-control {
+  position: relative;
+  height: auto;
+  padding: 0.8rem;
+}
+.form_area,
+.form-check {
+  margin: 2rem 0;
+}
+.genre_id {
+  display: block;
+}
+
+/*ヘッダーナビ*/
+.button_logout {
+  background-color: #212529;
+  color: rgba(255,255,255,0.55);
+  border: 0;
+}
+
+/*フッター*/
+.footer .container {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*カルーセル*/
+.index_carousel {
+  height: 25rem;
+  width: 100%;
+  object-fit: cover;
+}
+.carousel-caption {
+  background-color: #f8f9fa;
+  opacity: 0.75;
+}
+.carousel-indicators {
+  margin-top: 1rem;
+}
+
+/*カード共通*/
+.card {
+  border: solid black;
+  margin: 0.5rem;
+  padding: 0.8rem
+}
+.card_img {
+  height: 12rem;
+  object-fit: cover;
+}
+.mini_card_img {
+  height: 5rem;
+  object-fit: cover;
+}
+.profile_card_img {
+  height: 20rem;
+  object-fit: cover;
+}
+.card-text {
+  margin: 1rem 0;
+}
+.card-footer {
+  background-color: white;
+  border-top: 0;
+  margin-top: 1rem;
+  padding: 0;
+}
+.card-footer ul {
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.card-footer li {
+  display: inline-block;
+  padding-right: 0.5rem;
+}
+
+/*検索バー*/
+.navbar-search {
+  position: relative;
+}
+.navbar-search .search-query {
+  padding-left: 29px;
+}
+.navbar-search .icon-search {
+  position: absolute;
+  top: 7px;
+  left: 11px;
+}
+.navbar-search .search-query:focus .navbar-search .search-query.focused {
+  padding-left: 30px;
+}
+
+/*投稿一覧メイン*/
+.recommend_area {
+  padding: 1rem 2rem;
+}
+.recommend_area a {
+  color: #0dcaf0;
+  font-size: 1.2rem;
+}
+.index .card-title {
+  height: 2rem;
+  font-size: 20px;
+  font-size: clamp(15px, 1vw, 25px);
+}
+.index .card-text{
+  background: #eee;
+  height: 4rem;
+}
+.index .card-text p {
+  font-size: 0.5rem;
+}
+.index .list-group-item {
+  font-size: 50%;
+}
+.index_profile .card_img {
+  width: 100%;
+}
+.index ul {
+  padding: 0;
+} 
+
+/*投稿一覧サイドバー*/
+.sidebar {
+  padding: 0.2rem;
+}
+.index_profile .card-footer a,
+.index_profile .card-footer input[type="submit"] {
+  font-size: 50%;
+}
+.user_posts .mini_card_img {
+  height: 3rem;
+  object-fit: cover;
+}
+.user_posts .card-body {
+  padding: 0;
+}
+.user_posts p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 0.5rem;
+  font-size: clamp(10px, 1vw, 20px);
+}
+
+/*詳細画面共通*/
+.wrapper {
+  padding: 2rem 2rem 2rem 2rem;
+}
+.show_wrapper {
+  margin-top: 5rem;
+  max-width: 50rem;
+  margin: 2rem auto;
+}
+.show_card_img {
+  width: 70%;
+  max-height: 25rem; 
+  display: block;
+  margin: auto;
+}
+.info {
+  color: #0dcaf0;
+}
+.comments_link {
+  margin-top: 1rem;
+}
+.comments_area {
+  display: flex;
+  gap: 1rem;
+}
+.comments input[type="text"] {
+  height: 2rem;
+  margin: auto 0;
+  margin-bottom: 0;
+  border-radius: 0.3rem;
+}
+
+/*投稿画面*/
+.form-select {
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+.form-switch {
+  margin-bottom: 1rem;
+}
+
+/*編集画面共通*/
+.edit_card_img {
+  width: 100%;
+  height: auto;
+}
+
+/*プロフィール編集画面*/
+.fullname {
+  display: flex;
+  gap: 1rem;
+}
+.fullname .name_area{
+  width: 100%;
+}
+.profile_list {
+  margin-top: 2rem;
+}
+.profile_card_img {
+  width: 50%;
+  height: auto; 
+  display: block;
+  margin: auto;
+}
+
+/*フォロー画面*/
+.follow_card {
+  min-width: 6rem;
+}
