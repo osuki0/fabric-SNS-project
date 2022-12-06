@@ -190,7 +190,7 @@
                     
                     let cardTitle = $('<div>');
                     cardTitle.addClass('card-title');
-                    let title = $('<h4>');
+                    let title = $('<p>');
                     title.html(x.title);
                             
                     let cardText = $('<div>');

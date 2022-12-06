@@ -57,7 +57,7 @@
                                 
                             @if($post->price > 0 && $post->orders->count() === 0)
                                 <li class="list-group-item">
-                                    販売価格：{{ $post->price }}
+                                    販売価格：{{ $post->price }} 円
                                 </li>
                                 <li class="list-group-item">
                                     配送料の負担：{{ $delivery_charge_name }}

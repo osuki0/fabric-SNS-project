@@ -20,7 +20,7 @@ class PostImageRequest extends FormRequest
                 'file',
                 'image',
                 'mimes:jpg,jpeg,png',
-                'dimensions:min_width=50,min_height=50,max_width=3000,max_height=3000'
+                'dimensions:min_width=50,min_height=50,max_width=5000,max_height=5000'
                 ],
             'image' => ['required', 'array', 'min:1', 'max:3'], 
         ];
