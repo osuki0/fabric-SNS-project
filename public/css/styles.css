@@ -37,7 +37,6 @@ input[type="file"],
   text-align:center;
   margin-bottom: 1.8rem;
 }
-
 .form_signin {
   max-width: 420px;
   padding: 1.5rem 2rem 3.5rem;
@@ -167,12 +166,12 @@ input[type="file"],
   color: #0dcaf0;
   font-size: 1.2rem;
 }
-.index .card-title {
+.index .card-title p {
   height: 2rem;
-  font-size: 20px;
-  font-size: clamp(15px, 1vw, 25px);
+  font-size: 15px;
+  font-size: clamp(5px, 1vw, 20px);
 }
-.index .card-text{
+.index .card-text {
   background: #eee;
   height: 4rem;
 }
